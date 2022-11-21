@@ -13,7 +13,8 @@ int main()
 
     cout << "===========================================================" << endl;
 
-    for (int a = 0; a < jml_arr; a++){
+    for (int a = 0; a < jml_arr; a++)
+    {
 
     cout << "masukkan nilai index ke - " << a << " : ";
     cin >> angka[a];

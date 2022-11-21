@@ -18,12 +18,14 @@ int main()
     cin >> cari;
     for (int b = 0; b < length; b++){
     if (cari == angka[b]) {
-        cout << " ada " << endl;
-        hasil++;
+        hasil++;//kalo hasil b ditemukan maka bakal increment. tapi kalo data b tidak ditemukan maka maka b = 0
+    }
+    }
+    if (hasil > 0){
+        cout << "data ditemukan" << endl;
     }
     else {
-        cout << " kamu kena prank " << endl;
+        cout << "kamu kena prank " << endl;
     }
-}
     return 0;
 }

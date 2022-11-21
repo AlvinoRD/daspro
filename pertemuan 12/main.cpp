@@ -6,7 +6,6 @@ int main()
 {
     int x;
     int prima;
-
     cout << "masukkan angka anda : ";
     cin >> x;
 

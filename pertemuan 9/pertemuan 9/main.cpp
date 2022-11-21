@@ -46,7 +46,7 @@ int main()
     cout << "jumlah index : ";
     cin >> jml_arr;
 
-    int angka[jml_arr];
+    int angka[jml_arr];//berapa angka yang ada di dalam jumlah arr akan diisi angka
     int total;
     for (int a = 0; a < jml_arr;a++){
         cout << "masukkan angka : ";
